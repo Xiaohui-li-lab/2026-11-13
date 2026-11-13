@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.env
+
+# Data (large files)
+data/*.csv
+data/*.dta
+data/*.zip
+
+# Outputs
+output/*.png
+output/*.pdf
+output/*.csv
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+latex/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
