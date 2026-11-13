@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+title: "Information-Processing Modes Determine the Architecture and Outcome of Aggressive Wars"
+authors:
+  - family-names: "Li"
+    given-names: "Xiaohui"
+    orcid: "https://orcid.org/0009-0003-8233-7191"
+repository-code: "https://github.com/xiaohui-li-lab/"
+license: MIT
