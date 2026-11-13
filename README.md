@@ -83,3 +83,49 @@ xiaohui-li-lab/2026-1-13/
 └── docs/
     ├── supplementary_materials.pdf
     └── response_to_reviewers_template.md
+
+
+
+
+
+This will:
+
+Build the Information-Granularity Index (IGI) from V-Dem.
+Merge COW war data with IGI and NMC capabilities.
+Estimate logistic regression models.
+Run the ABM and generate Figure 2.
+Calibrate the ABM to historical cases (Figure 4).
+Perform sensitivity analyses (Figure 5).
+Save all outputs to output/.
+
+File Structure
+code/01_build_igi.py — Construct IGI from V-Dem democracy and press-freedom variables.
+code/02_real_data_analysis.py — Logistic regression and Figure 3.
+code/03_abm_simulation.py — Core agent-based model and Figure 2.
+code/04_abm_calibration.py — Calibration to seven historical wars and Figure 4.
+code/05_sensitivity_analysis.py — Parameter sweeps and Figure 5.
+code/06_run_all.py — Master script that runs all analyses sequentially.
+code/utils.py — Shared helper functions.
+latex/paper_en_final.tex — Final LaTeX manuscript with embedded figures.
+
+Key Results
+Result	Value
+IGI effect on defeat probability	β₁ = −2.34, p < 0.01
+Low-IGI initiators defeat rate	61.5%
+High-IGI initiators defeat rate	28.2%
+ABM calibration accuracy	71.4% (85.7% with strategic-failure recoding)
+Coarse vs. fine war-initiation ratio	~4.7× (95% CI: 3.9–5.6)
+Citation
+
+
+License
+This repository is released under the MIT License. See LICENSE for details.
+
+The external datasets (COW and V-Dem) retain their own licenses; please refer to their respective websites.
+
+Contact
+Xiaohui Li
+Email: danceluck@163.com
+ORCID: 0009-0003-8233-7191
+
+
