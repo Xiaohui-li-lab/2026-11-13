@@ -129,3 +129,9 @@ Email: danceluck@163.com
 ORCID: 0009-0003-8233-7191
 
 
+Date
+数据集	下载地址	建议文件名
+COW Inter-State War Data v4.0	https://correlatesofwar.org/data-sets/COW-war/	Inter-StateWarData_v4.0.csv
+COW National Material Capabilities v6.0	https://correlatesofwar.org/data-sets/national-material-capabilities/	NMC_Data_v6.0.csv
+V-Dem v12 Country-Year	https://v-dem.net/data/the-v-dem-dataset/	V-Dem-CY-Core-v12.csv
+
